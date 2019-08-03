@@ -20,3 +20,22 @@ STEP 2: To start testing the PUT functionality, run "nodemon server.js"
 
 STEP 3: In Postman, create a PUT endpoint to create a new recipe
 =================================================================
+    o   First, send a GET request to localhost:8080/shopping-list
+    o   What you will see is a list of three items in the list
+    o   For the purpose of this study, we want to update the "beans" item to "beans and rice" and change the budget to 3 as well
+
+STEP 4: To change the item, you submit a PUT request.
+======================================================
+    o   First, you need to add the id of the item you want to update into the url route.
+
+            localhost:8080/shopping-list/cb3d1650-13a6-42a9-9d29-0ccd1da82d85
+                                                         \
+                                                          URL route
+
+    o    Second, you need to update the item with new information
+        o   To do this, select "body", then "raw", then copy/paste the existing item into the field and then
+            update the information you want to change.
+
+    o   Once you submit your PUT request, you can send a GET request to localhost:8080/shopping-list and you
+        should see the update item!
+
