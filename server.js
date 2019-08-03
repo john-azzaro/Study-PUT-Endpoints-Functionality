@@ -41,6 +41,7 @@ app.post('/shopping-list', jsonParser, (req, res) => {
   res.status(201).json(item);
 });
 
+
 app.put('/shopping-list/:id', jsonParser, (req, res) => {                                        // When a put request comes in with an updated item...
   const requiredFields = ['name', 'budget', 'id'];                                               // First, validate to see if the request has the name, budget, and id.     
   for (let i=0; i<requiredFields.length; i++) {                                                  //... looking through the list of items (i.e. requires fieldss)
