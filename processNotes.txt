@@ -1,0 +1,22 @@
+Process notes for PUT endpoint functionality
+=============================================
+    o   The PUT endpoints study takes the Thinkful node shopping list model and demonstrates how 
+        to use the PUT HTTP method to UPDATE items, in this case from the shopping list.
+
+---------------------------------------------------------------------------------------------    
+o   IMPORTANT: For this study, you will also need to have POSTMAN to test the requests made.
+---------------------------------------------------------------------------------------------
+
+STEP 1: Setup your project
+===========================
+    o   This involves creating a project folder, cloning the project, installing npm dependencies, etc.
+
+STEP 2: To start testing the PUT functionality, run "nodemon server.js"
+=========================================================================
+    o   When you run "nodemon server.js", you will have access to your application on port 8080.
+    o   Further, because you are using nodemon, the server will restart every time you make changes to your project.
+
+
+
+STEP 3: In Postman, create a PUT endpoint to create a new recipe
+=================================================================
